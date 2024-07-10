@@ -3,12 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
+  font-family: "Azeret Mono", sans-serif;
 }
 
 /* shared styles */
@@ -17,6 +12,25 @@
 }
 .text-color {
   color: #0d1321;
+}
+.text-center {
+  text-align: center;
+}
+.section-title{
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.section-description{
+  font-size: 16px;
+  color: #0d1321;
+  opacity: 0.7;
+  margin-bottom: 32px;
+  line-height: 26px;
+}
+/* header styles */
+.header {
+  margin-bottom: 74px;
 }
 
 /* nav styles */
@@ -53,9 +67,7 @@ nav .nav-download-btn {
   align-items: center;
   justify-content: center;
 }
-/* .banner-container{
-  margin: 0 auto;
-} */
+
 .banner-info {
   text-align: center;
   padding: 26px 220px 46px;
@@ -80,4 +92,54 @@ nav .nav-download-btn {
   color: white;
   font-size: 20px;
   font-weight: 600;
+  font-family: "Azeret Mono";
 }
+/* web dev styles */
+
+.web-dev {
+  max-width: 1140px;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.02);
+  margin: 0 auto;
+}
+.web-dev-container {
+  padding: 80px 96px;
+  margin-bottom: 90px;
+}
+.web-dev-info {
+  padding: 0 48px 48px;
+}
+.web-dev-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  border-radius: 16px;
+}
+.web-dev-row img{
+  margin: 48px;
+}
+.row-info{
+  padding: 48px;
+}
+.row-info-mid{
+  width: 60%;
+}
+.row-title{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  margin-bottom: 16px;
+  line-height: 36px;
+}
+.web-learn-btn{
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d1321;
+  background-color: transparent;
+  opacity: 0.7;
+  border: 1px solid #0d1321;
+}
+

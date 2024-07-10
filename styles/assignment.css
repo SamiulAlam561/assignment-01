@@ -56,6 +56,7 @@ nav .nav-download-btn {
   color: #0d1321;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* banner styles */
@@ -94,7 +95,7 @@ nav .nav-download-btn {
   color: white;
   font-size: 20px;
   font-weight: 600;
-  font-family: "Azeret Mono";
+  cursor: pointer;
 }
 /* web dev styles */
 
@@ -147,6 +148,7 @@ nav .nav-download-btn {
   background-color: transparent;
   opacity: 0.7;
   border: 1px solid #0d1321;
+  cursor: pointer;
 }
 
 /* inspiration styles */
@@ -175,7 +177,7 @@ nav .nav-download-btn {
 
 /* my current target styles */
 
-.target-section{
+.target-section {
   margin-bottom: 110px;
 }
 
@@ -208,6 +210,7 @@ nav .nav-download-btn {
   font-size: 16px;
   font-weight: 700;
   color: #0d1321;
+  cursor: pointer;
 }
 .skill-html {
   border-radius: 16px;
@@ -220,4 +223,58 @@ nav .nav-download-btn {
 .skill-js {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
+}
+/* support section */
+
+.support-section {
+  margin-bottom: 80px;
+}
+.support-container {
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../assets/handshake.jpg");
+  width: 1140px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 64px 48px;
+}
+
+.support-title,.support-description {
+  color: white;
+}
+
+.support-description{
+  width: 600px;
+  margin: 0 auto;
+}
+.support-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+.feedback-text{
+  padding: 19px 20px;
+  width: 548px;
+  font-size: 16px;
+  color: rgba(13, 19, 33, 0.4);
+  border: none;
+  border-radius: 8px;
+}
+.support-submit{
+  margin-left: 16px;
+  padding: 16px 20px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  cursor: pointer;
 }

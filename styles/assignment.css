@@ -7,6 +7,7 @@
 }
 
 /* shared styles */
+
 .image-height {
   height: 240px;
 }
@@ -29,6 +30,7 @@
   line-height: 26px;
 }
 /* header styles */
+
 .header {
   margin-bottom: 74px;
 }
@@ -148,14 +150,15 @@ nav .nav-download-btn {
 }
 
 /* inspiration styles */
-.inspiration-section{
+
+.inspiration-section {
   margin-bottom: 150px;
 }
 .inspiration-info {
   max-width: 852px;
   margin: 0 auto;
 }
-.inspiration-info .inspiration-description{
+.inspiration-info .inspiration-description {
   margin-bottom: 48px;
 }
 
@@ -168,4 +171,53 @@ nav .nav-download-btn {
 }
 .programming-hero-video {
   border-radius: 16px;
+}
+
+/* my current target styles */
+
+.target-section{
+  margin-bottom: 110px;
+}
+
+.target-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.target-info {
+  max-width: 946px;
+  margin: 0 auto;
+}
+.skills-container {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 40px;
+}
+.skill img {
+  width: 56px;
+  margin-bottom: 24px;
+}
+.skill-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.skill a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0d1321;
+}
+.skill-html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.skill-css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.skill-js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }

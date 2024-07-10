@@ -16,12 +16,12 @@
 .text-center {
   text-align: center;
 }
-.section-title{
+.section-title {
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 24px;
 }
-.section-description{
+.section-description {
   font-size: 16px;
   color: #0d1321;
   opacity: 0.7;
@@ -114,26 +114,30 @@ nav .nav-download-btn {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
-  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
   border-radius: 16px;
 }
-.web-dev-row img{
+.web-dev-row img {
   margin: 48px;
 }
-.row-info{
+.row-info {
   padding: 48px;
 }
-.row-info-mid{
+.row-info-mid {
   width: 60%;
 }
-.row-title{
+.row-title {
   font-size: 24px;
   font-weight: 700;
   color: rgba(13, 19, 33, 0.7);
   margin-bottom: 16px;
   line-height: 36px;
 }
-.web-learn-btn{
+.web-learn-btn {
   padding: 12px 20px;
   font-size: 20px;
   font-weight: 600;
@@ -143,3 +147,25 @@ nav .nav-download-btn {
   border: 1px solid #0d1321;
 }
 
+/* inspiration styles */
+.inspiration-section{
+  margin-bottom: 150px;
+}
+.inspiration-info {
+  max-width: 852px;
+  margin: 0 auto;
+}
+.inspiration-info .inspiration-description{
+  margin-bottom: 48px;
+}
+
+.inspiration-video {
+  padding: 32px;
+  max-width: 1140px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin: 0 auto;
+}
+.programming-hero-video {
+  border-radius: 16px;
+}

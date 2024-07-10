@@ -46,7 +46,7 @@ nav .nav-download-btn{
 
 .banner {
   height: 652px;
-  background-image: url('/assets/Hero-bg.png');
+  background-image: url('assets/Hero-bg.png');
   background-position: center;
   display: flex;
   flex-direction: column;
